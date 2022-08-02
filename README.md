@@ -5,12 +5,14 @@ Ejercicios de prueba en bash
 Apuntes y test de algunos comandos.
 
 # Ejercicio 2: 
+
 [Para investigar más sobre el temario de Bash escribí estas con forma de función para variar y ver cómo se llaman.]
--Función manual():
+
+## -Función manual():
 Busca los ficheros del directorio /bin que no tienen página de manual en la sección 1.
 (Las páginas de la sección 1 se encuentran en ficheros de nombre "/usr/share/man/*nombre_del_comando*.1.gz)
 
--Función permisos():
+## -Función permisos():
 Script que a partir de un directorio que recibe como argumento, añade permisos de ejecución de forma recursiva a todos los archivos con extensión ".sh",.
 Si no recibe argumentos, lo hace en el directorio actual.
 
